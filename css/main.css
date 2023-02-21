@@ -1,0 +1,272 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+/* font-family: 'Roboto', sans-serif; */
+
+body {
+    background-image: url(/img/bg_01.png);
+    font-family: 'Roboto', sans-serif;
+    font-size: 1em;
+}
+
+/* Отключение BT классов ------------------------------------- */
+
+p {
+    margin-bottom: 0;
+}
+
+/* header-line -------------------------------------------------- */
+
+.header-line {
+    background-color: #534862;
+    color: #fff;
+    font-weight: 400;
+    font-size: 105%;
+    box-sizing: border-box;
+    padding: 7px 0;
+}
+
+.header-line__wrapper {
+    display: flex;
+    align-items: center;
+    /* justify-content: space-between; */
+}
+
+.header-line__info-block {
+    display: flex;
+    align-items: center;
+}
+
+.header-line__text {
+    font-size: 1.2em;
+    margin-left: 10px;
+    display: block;
+}
+
+.header-line__icon {}
+
+.header-line__address {}
+
+.header-line__address-text {}
+
+.header-line__time {}
+
+.header-line__date {}
+
+/* header ------------------------------------------------------------- */
+
+.header {
+    padding-top: 30px;
+}
+
+.header__logo {
+    max-width: 100%;
+}
+
+.header__title-block {
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 25px;
+}
+
+.header__title {
+    text-align: center;
+    color: #534862 !important;
+    font-size: 1.7em;
+    font-weight: 700;
+    font-style: italic;
+}
+
+.header__info-block {
+    background-color: #534862;
+    border-radius: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0 20px;
+}
+
+.header__info-wrapper {
+    display: flex;
+    align-items: center;
+}
+
+.header__icon-back {
+    width: 35px;
+    height: 35px;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: orange;
+    border-radius: 100px;
+}
+
+.header__icon {
+    width: 100%;
+    height: 100%;
+    max-width: 20px;
+}
+
+.header__info-text-wrapper {
+    margin-left: 10px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+}
+
+.header__info-text-wrapper:first-child {
+    margin-top: 0;
+}
+
+.header__text {
+    color: white;
+    font-size: 1.2em;
+    font-weight: 300;
+}
+
+/* nav ----------------------------------------------------------------- */
+
+.nav {
+    padding-top: 30px;
+    box-sizing: border-box;
+}
+
+.nav__wrapper {
+    display: flex;
+    align-items: center;
+}
+
+.nav-block {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 1.3em;
+    color: white !important;
+    font-weight: 700;
+    flex-grow: 1;
+    padding: 12px 0;
+    font-style: italic;
+}
+
+.nav-block:first-child {
+    border-radius: 15px 0 0 15px;
+}
+
+.nav-block:last-child {
+    border-radius: 0 15px 15px 0;
+}
+
+.nav-block:nth-child(1) {
+    background-color: red;
+}
+
+.nav-block:nth-child(2) {
+    background-color: green;
+}
+
+.nav-block:nth-child(3) {
+    background-color: purple;
+}
+
+.nav-block:nth-child(4) {
+    background-color: orange;
+}
+
+.nav-block:nth-child(5) {
+    background-color: green;
+}
+
+.nav-block:nth-child(6) {
+    background-color: purple;
+}
+
+/* carousel --------------------------------------------------------------------- */
+
+.carousel-inner {
+    border-radius: 15px;
+    border: 15px solid white;
+}
+
+/* page ----------------------------------------------------------------- */
+
+.page {
+    margin-top: 35px;
+}
+
+.page-left {}
+
+.page-right {
+
+}
+
+
+/* page-left-nav ---------------------------------------------------------------------- */
+
+.page-left-nav {
+    background-color: #8f63ac;
+    box-sizing: border-box;
+    padding: 15px 0;
+    border-radius: 15px;
+}
+
+.page-left-nav__item {
+    display: block;
+    transition: all 0.25s ease-out;
+    padding: 0 10px;
+}
+
+.page-left-nav__item:hover {
+    background-color: #7e47a3;
+}
+
+.page-left-nav__text {
+    color: white;
+    font-size: 1.2em;
+    font-weight: 300;
+    padding: 10px 10px;
+    font-style: italic;
+}
+
+.page-left-nav__line {
+    width: 100%;
+    height: 1px;
+    display: block;
+    border: 1px dashed white;
+    opacity: 0.5;
+}
+
+/* page-right-welcome ----------------------------------------------------------- */
+
+.page-right-welcome {
+    background-color: white;
+    display: block;
+    padding: 35px 15px 50px;
+    box-sizing: border-box;
+    border-radius: 15px;
+}
+.page-right-welcome__title {
+    color: #282828;
+    font-size: 1.4em;
+    text-align: center;
+    text-transform: uppercase;
+}
+.page-right-welcome__text {
+    color: #282828;
+    font-size: 0.9em;
+    margin-top: 25px;
+}
+
+/* page-left-timetable -------------------------------------------------------- */
+
+.page-left-timetable {
+    width: 100%;
+    background-color: white;
+    border-radius: 15px;
+    padding: 25px 0;
+    display: flex;
+    justify-content: center;
+    margin-top: 25px;
+}
