@@ -198,9 +198,7 @@ p {
 
 .page-left {}
 
-.page-right {
-
-}
+.page-right {}
 
 
 /* page-left-nav ---------------------------------------------------------------------- */
@@ -236,27 +234,6 @@ p {
     display: block;
     border: 1px dashed white;
     opacity: 0.5;
-}
-
-/* page-right-welcome ----------------------------------------------------------- */
-
-.page-right-welcome {
-    background-color: white;
-    display: block;
-    padding: 35px 15px 50px;
-    box-sizing: border-box;
-    border-radius: 15px;
-}
-.page-right-welcome__title {
-    color: #282828;
-    font-size: 1.4em;
-    text-align: center;
-    text-transform: uppercase;
-}
-.page-right-welcome__text {
-    color: #282828;
-    font-size: 0.9em;
-    margin-top: 25px;
 }
 
 /* page-left-timetable -------------------------------------------------------- */

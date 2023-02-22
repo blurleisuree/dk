@@ -17,5 +17,11 @@ $(document).ready(function () {
         $(itemNow).append(`<img class='d-block w-100' alt='slide${index + 1}' src='${elem}' </img>`);
     })
 
+    // tabs ----------------------------------------------------------------
+
+    const tabs = $(".page-right-tabs"),
+    leftBtn = $(".page-rigth
+    
+    ")
 
 });
