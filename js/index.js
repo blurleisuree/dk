@@ -19,9 +19,25 @@ $(document).ready(function () {
 
     // tabs ----------------------------------------------------------------
 
-    const tabs = $(".page-right-tabs"),
-    leftBtn = $(".page-rigth
-    
-    ")
+    const tabs = $(".tabs"),
+        leftBtn = $(".tabs__top-block")[0],
+        rightBtn = $(".tabs__top-block")[1],
+        tabsBtnList = $(".tabs__top-block"),
+        news = $(".tabs__news"),
+        docs = $(".tabs__docs");
+
+    tabsBtnList.click(function () {
+        tabsBtnList.removeClass("active")
+        $(this).addClass("active");
+
+        $(news).removeClass("active")
+        $(docs).removeClass("active")
+
+        if ($(this).data("type") == "news") {
+            news.addClass("active")
+        } else {
+            docs.addClass("active");
+        }
+    })
 
 });
