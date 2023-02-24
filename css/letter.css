@@ -1,0 +1,48 @@
+.form-block {
+    margin-top: 20px;
+}
+
+.input-block {
+    margin-bottom: 10px;
+}
+
+.input-block__name {
+}
+
+label.error {
+    color: red;
+}
+
+.input-block__input {
+    display: block;
+    border: 1px solid black;
+    width: 50%;
+}
+
+.input-block__input.error{
+    border: 1px solid red;
+}
+
+.form__personal {
+    max-width: 50%;
+    display: block;
+    font-size: 0.9em;
+}
+
+.input-block__textarea {
+    display: block;
+    border: 1px solid black;
+    width: 50%;
+    margin-bottom: 10px;
+}
+
+.form__btn {
+    display: block;
+    box-sizing: border-box;
+    padding: 10px 20px;
+    margin-top: 20px;
+    background-color: purple;
+    color: white;
+    font-size: 1.2em;
+    width: 50%;
+}
